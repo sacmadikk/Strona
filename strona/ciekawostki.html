@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Artificial Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- Dodanie stylów dla slidera -->
+    <style>
+        #interesting-facts {
+            width: 70%;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .fact-slider {
+            width: 100%;
+            display: flex;
+            animation: slide 10s infinite;
+        }
+        .fact-slide {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <div class="logo">
+            <a href="strona.html"><img src="mozg.png" height="150px" ></a>
+            <h1>Ciekawostki</h1>
+        </div>
+    
+        <div id="clock"></div>
+    </div>
+    <p></p>
+    <!-- Zmieniony div dla ciekawostek -->
+    <div id="interesting-facts">
+        <p><h3><li><b>Edukacja z wykorzystaniem AI</h3></b>Sztuczna inteligencja staje się coraz bardziej obecna w systemach edukacyjnych,
+        umożliwiając dostosowanie materiałów do indywidualnych potrzeb uczniów, oferując interaktywne narzędzia do nauki oraz 
+        wspomagając nauczycieli w ocenie postępów uczniów i identyfikacji obszarów wymagających poprawy.</li></p>
+        <p><h3><li><b>Sztuczna inteligencja w sztuce i muzyce</h3></b> AI nie tylko może analizować i generować tekst czy obrazy,
+        ale także być kreatywnym narzędziem w dziedzinie sztuki i muzyki. Generatywne modele adversarialne (GAN)
+        mogą tworzyć realistyczne obrazy, podczas gdy sieci neuronowe mogą komponować muzykę w stylu różnych kompozytorów.</li></p>
+        <p><h3><li><b>Rozwój sztucznej inteligencji wzorowany na mózgu</h3></b> Neuroinżynieria stara się naśladować działanie ludzkiego
+        mózgu poprzez tworzenie sieci neuronowych. Modele takie jak sieci neuronowe głębokie próbują naśladować złożone połączenia neuronów w mózgu,
+        co przyczynia się do bardziej zaawansowanych osiągnięć w dziedzinie uczenia maszynowego.</li></p>
+    </div>
+    
+    <aside id="aside">
+        <h2>Warto wiedzieć</h2>
+        <p>AI jest kluczem do przyszłości. Dowiedz się więcej o jego zastosowaniach, korzyściach i wyzwaniach!</p>
+    </aside>
+
+    <footer id="footer">
+        <p>Kontakt: dobreswiry@wp.pl | Telefon: 999 888 777 | Siedziba: Sitno City</p>
+        <a href="kontakt.html">Kontakt</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

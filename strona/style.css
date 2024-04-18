@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('zdj.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#banner {
+    background: linear-gradient(to right, #2831b6, #3f83a5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.logo p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+article {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-image: url('tlo2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 80%;
+    color: white;
+
+}
+
+#interesting-facts {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-image: url('tlo2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 80%;
+    color: white;
+}
+
+#aside {    
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-image: url('tlo2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 80%;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(to right, #3a7bd5, #3a6073);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#clock {
+    font-size: 1.2em;
+}
+
+marquee p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    #banner {
+        border-radius: 0;
+    }
+}
